@@ -1,0 +1,97 @@
+/* css/style.css */
+/*============================================================
+ Resets
+============================================================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td 
+{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	background:transparent;
+}
+ol, ul { list-style:none; }
+
+body 
+{
+	height:100%;
+}
+#arrowcontainer
+{
+	margin: 20px;
+	padding: 10px;
+}
+#arrowlist
+{
+	position: relative;
+}
+#arrowlist li
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+}
+#arrowlist li, #arrowlist a
+{
+	height: 49px;
+	display: block;
+}
+#arrowleft
+{
+	left: 0px;
+	width: 100px;
+	background: url("../images/arrow.png") 0 0;
+}
+#arrowright
+{
+	left: 50px;
+	width: 49px;
+	background: url("../images/arrow.png") 50px 0px;
+}
+#arrowleft a:hover
+{
+	background: url("../images/arrow.png") 0px 51px;
+}
+#arrowright a:hover
+{
+	background: url("../images/arrow.png") -50px -48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
